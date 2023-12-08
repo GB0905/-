@@ -1,0 +1,528 @@
+@charset "utf-8";
+
+a{
+	text-decoration:none;
+}
+
+/* body 와 background */
+.sdh_div_body{
+	width:100%;
+	height:100%;
+	margin:auto;
+}
+
+.sdh_body_Background{
+	width:100%;
+	height:100%;
+	margin:auto;
+	background-color:#f1f1f1;
+	text-align:center;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* Category */
+.sdh_Category_Background{
+	margin-bottom:25px;
+	background:#74b243;
+	width:100%;
+	height:60px;
+	text-align: center;
+}
+
+.sdh_Category{
+	background:#74b243;
+	width:80%;
+	height:100%;
+	max-width:1100px;
+	min-width:1100px;
+	display:inline-block;
+}
+
+.sdh_Category ul li{
+	padding-left:50px;
+	padding-right:50px;
+	list-style:none;
+	vertical-align:middle;
+	text-align:center;
+	display: inline-block;
+	transform:translateY(0%);
+	color:white;
+}
+
+.sdh_Category ul li a{
+	display:block;
+	text-align:center;
+	text-decoration:none;
+}
+
+.sdh_Category .Linked{
+	text-decoration:none;
+	color:white;
+	display:block;
+	width:100px;
+	font-size:20px;
+	font-weight:bold;
+}
+
+.sdh_Category .Linked:hover{
+	color:#ffff00;
+	font-weight:bold;
+}
+
+/* Notice */
+.sdh_Notice_Background{
+	margin-bottom:25px;
+	background:#ffffff;
+	width:80%;
+	height:auto;
+	max-width:1200px;
+	min-width:1200px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.sdh_Notice_Box{
+	width:100%;
+	margin:auto;
+	text-align:center;
+	display: inline-block;
+}
+
+.sdh_notice {
+	width:100%;
+	border-collapse: collapse;
+	table-layout:fixed;
+}  
+.sdh_notice th {
+	padding: 5px;
+	color: #008040;
+	border-bottom: 3px solid #74b243;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.sdh_notice td {
+	height:7px;
+	color: #004000;
+	padding: 5px;
+	margin:auto;
+	border-bottom: 1px solid #ddd;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.sdh_notice tr:hover td {
+	color: #74b243;
+}
+
+/* BestRecipe */
+.sdh_Recipe_Background{
+	margin-bottom:25px;
+	background:#ffffff;
+	width:80%;
+	height:auto;
+	text-align: center;
+	max-width:1200px;
+	min-width:1200px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.sdh_Recipe_Box_Wrapper{
+	width:100%;
+	margin:auto;
+	max-width:1200px;
+	min-width:1200px;
+	text-align:center;
+	display:inline-block;
+}
+
+.sdh_Box_Title{
+	padding-top:10px;
+	padding-bottom:10px;
+	position:relative;
+	left:-40%;
+	text-align:center;
+	display:inline-block;
+	font-size:25px;
+	font-weight:bold;
+}
+
+.sdh_Box_Title a{
+	color:black;
+}
+
+.sdh_Recipe_Table{
+	width:100%;
+	border-collapse: collapse;
+	table-layout:fixed;
+}
+
+.sdh_Recipe_Box{
+	width:250px;
+	height:250px;
+	text-align:center;
+	display:inline-block;
+}
+
+.sdh_Recipe_Box_Img{
+	position:relative;
+	width:90%;
+	height:60%;
+	display:inline-block;
+	text-align:center;
+}
+.sdh_Recipe_Box_Img img{
+	width:95%;
+	height:95%;
+}
+.sdh_Recipe_Box_Title{
+	white-space:nowrap;
+	position:relative;
+	width:90%;
+	height:20%;
+	display:inline-block;
+	text-align:left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.sdh_Recipe_Box_Title a{
+	color:black;
+	text-decoration:none;
+}
+.sdh_Recipe_Box_Title a:hover{
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.sdh_Recipe_Box_Author{
+	width:45%;
+	hegiht:10%;
+	display:inline-block;
+	text-align:left;
+	color:#808080;
+	text-size:5px;
+}
+
+.sdh_Recipe_Box_View{
+	width:45%;
+	hegiht:10%;
+	display:inline-block;
+	text-align:right;
+	color:#808080;
+	text-size:5px;
+}
+
+/* list */
+.sdh_list_Box{
+	background:#ffffff;
+	margin-bottom: 25px;
+	width:80%;
+	height:100%;
+	max-width:1200px;
+	min-width:1200px;
+	text-align:center;
+	display:inline-block;
+	border-radius: 5px;
+}
+
+
+.sdh_list_Total_Number{
+	background:#ffffff;
+	width:30%;
+	height:20%;
+	position:relative;
+	left:30%;
+	padding-top:20px;
+	text-align:center;
+	display:inline-block;
+	font-size:25px;
+	font-weight:bold;
+	color:#808080;
+}
+
+.off-screen {
+	display: none;
+}
+#list_paging {
+	width: 500px;
+	vertical-align: middle;
+	text-align: center;
+}
+#list_paging a {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 20px;
+	color: #000000;
+	text-decoration: none;
+}
+#list_paging a.active {
+	font-weight: bold;
+	color: #ff0000;
+}
+
+/* mypage-�ш린遺��� 蹂듭��~ */
+.sdh_mypage{
+	width:80%;
+	height:100%;
+	max-width:1100px;
+	min-width:1100px;
+	display:inline-block;
+}
+
+.sdh_mypage_nav{
+	position:relative;
+	width:68%;
+	height:100%;
+	margin:auto;
+	max-height:800px;
+	min-height:800px;
+	background:#ffffff;
+	float:left;
+	margin-bottom:25px;
+	border-radius: 5px;
+	display:inline-block;
+	z-index:1;
+}
+
+.sdh_tab{
+	float:left;
+	width:100%;
+	height:100%;
+}
+
+.sdh_tab ul{
+	list-style:none;
+}
+.sdh_tab li{
+	float:left;
+}
+
+
+.sdh_tabnav{
+	font-size:0;
+	border:1px solid #ddd;
+}
+
+.sdh_tabnav li{
+	display:inline-bloack;
+	height:10%;
+	text-align:center;
+	border-right:1px solid #ddd;
+}
+
+.sdh_tabnav li a:before{
+	content:"";
+	position:absolute;
+	left:0; top:0px;
+	width:100%;
+	height:3px;
+}
+
+.sdh_tabnav li a.active:before{
+	background:#7ea21e;
+}
+
+.sdh_tabnav li a.active{
+	border-bottom:1px solid #fff;
+}
+
+.sdh_tabnav li a{
+	position:relative;
+	display:block;
+	background: #f8f8f8; 
+	color: #000; 
+	padding:0 30px; 
+	line-height:46px; 
+	text-decoration:none; 
+	font-size:16px;
+}
+
+.sdh_tabnav li a:hover, .sdh_tabnav li a.active{
+	background:#fff;
+	color:#7ea21e;
+}
+
+.sdh_tabcontent{
+	padding: 20px;
+	height:100%;
+	width:85%;
+	border-top:none;
+	display:inline-block;
+}
+
+.sdh_tab_content_box{
+	height:100%;
+	width:100%;
+}
+
+.sdh_tab_content_box .sdh_list_Total_Number{
+	font-size:15px;
+}
+
+.sdh_tab_content_box .sdh_Recipe_Background{
+	width:90%;
+	max-width:600px;
+	min-width:600px;
+}
+
+.sdh_tab_content_box .sdh_Box_Title{
+	font-size:15px;
+}
+
+.sdh_tab_content_box .sdh_Recipe_Box_Wrapper{
+	width:100%;
+	margin:auto;
+	max-width:600px;
+	min-width:600px;
+	text-align:center;
+	display:inline-block;
+}
+
+.sdh_Review_Box{
+	width:600px;
+	height:150px;
+	display:inline-block;
+}
+
+.sdh_Review_Box_Img{
+	position:relative;
+	width:30%;
+	height:90%;
+	display:inline-block;
+	text-align:center;
+	float:left;
+}
+.sdh_Review_Box_Img img{
+	width:95%;
+	height:95%;
+}
+
+.sdh_Review_DivWapper{
+	width:65%;
+	height:90%;
+	float:left;
+}
+
+.sdh_Review_Box_Title{
+	position:relative;
+	width:90%;
+	height:15%;
+	display:inline-block;
+	text-align:left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-bottom:5px;
+	font-size : 20px;
+}
+.sdh_Review_Box_Title a{
+	color:black;
+	text-decoration:none;
+}
+.sdh_Review_Box_Title a:hover{
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.sdh_Review_Box_Text{
+	position:relative;
+	width:90%;
+	height:40%;
+	display:inline-block;
+	text-align:left;
+	overflow: hidden;
+	font-size : 15px;
+	text-overflow: ellipsis;
+}
+
+.sdh_Review_Box_Date{
+	width:45%;
+	hegiht:10%;
+	display:inline-block;
+	text-align:left;
+	color:#808080;
+	text-size:5px;
+}
+
+.sdh_Review_Box_Del{
+	width:45%;
+	hegiht:10%;
+	display:inline-block;
+	text-align:right;
+	color:#808080;
+	text-size:5px;
+}
+
+
+.sdh_mypage_right{
+  position: sticky; 
+  left: 9999999px; 
+  top: 80px; 
+  text-align:center;
+  height:600px;
+  z-index:0;
+}
+
+.sdh_mypage_right .sdh_Recipe_Box_Title{
+	width:90%;
+	height:15%;
+	text-align:center;
+}
+
+.sdh_mypage_right .sdh_Recipe_Box_Author{
+	width:90%;
+	height:15%;
+	text-align:center;
+}
+
+
+
+.sdh_mypage_youtube{
+	width:100%;
+	background:black;
+	border-radius: 5px;
+	height:45%;
+}
+
+.sdh_tab_content_box_ForList{
+	width:100%;
+	height:100%;
+}
+
+#list_paging2 {
+	width: 500px;
+	text-align: center;
+}
+#list_paging2 a {
+	display: inline-block;
+	margin-right: 20px;
+	color: #000;
+	text-decoration: none;
+}
+#list_paging2 a.active {
+	font-weight: bold;
+	color: #00ff00;
+}
+
+#list_paging3 {
+	width: 500px;
+	text-align: center;
+}
+#list_paging3 a {
+	display: inline-block;
+	margin-right: 20px;
+	color: #000;
+/* 	text-decoration: none; */
+}
+#list_paging3 a.active {
+	background: #333;
+	color: #00ff00;
+}
+.thumbnail{
+	border-radius: 10px;
+}

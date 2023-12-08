@@ -1,0 +1,37 @@
+@charset "utf-8";
+.container{positon: relative;}
+    box{positon: relative;}
+    input[type=text]{
+		width:100%;
+		border:2px solid #aaa;
+		border-radius:4px;
+			margin: 8px 0;
+		outline: none;
+		padding:8px;
+		box-sizing: border-box;
+		transition:.3s;
+	}
+	input[type=text]:focus{
+		border-color:dodgerBlue;
+		box-shadow:0 0 8px 0 dodgetBlue;
+	}
+      body{ background-color: #F7FFF5;}
+      p,div { width: 1500px; }
+      div { background-color: #F7FFF5; padding: 10px; margin-left: 220px;}
+      img.absolute { 
+        position: absolute;
+        width: 500px;
+        left: 50%;
+        top: 300px;
+        transform: translate(-50%,-50%);
+      }
+      input.searchbox{
+      	font-size: 18px;
+      	padding-left: 40px;
+      	position: absolute;
+      	max-width: 500px;
+      	height: 70px;
+      	left: 50%;
+        top: 400px;
+        transform: translate(-50%,-50%);
+      }

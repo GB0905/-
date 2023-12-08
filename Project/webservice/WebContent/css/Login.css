@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* 페이지 전체 */
+.page_all{
+	width:100%;
+	height:100%;
+	background-color:#F7FFF5;
+}
+.login_page{
+	margin-right: auto;
+	margin-left: auto;
+	width:1400px;
+/* 	height:auto; */
+	min-height: 890px;
+}
+
+/* 페이지 상단 */
+.top{
+	width: 100%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 200px;
+}
+.top_logo{
+	width: 500px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* 페이지 하단 */
+.bottom{
+	width: 100%;
+	height: 200px;
+}
+/* 로그인 단 */
+.login{
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	height: auto;
+}
+/* 입력구역 */
+.id_box{
+	width: 100%;
+	height: auto;
+}
+.pw_box{
+	width: 100%;
+	height: auto;
+	
+}
+/* 입력창 */
+.id_text{
+	
+}
+.pw_text{
+	
+}
+
+/* 로그인 및 부가기능 */
+.submit_others{
+	display: flex;
+	justify-content: center;
+}
+
+.submit_btn{
+}
+.error_msg{
+	color: red;
+	font-weight: bold;
+}
+.find_list_first{
+	
+}
+.find_list_remain{
+	border-left: 1px solid darkgrey;
+}
+/* 기타속성 */
+label{
+	display: inline-block;
+	width: 90px;
+}
+input{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-decoration: none;
+  position: relative;
+  width: 80%;
+  display: block;
+  margin: 9px auto;
+  font-size: 17px;
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  background: rgba(3,3,3,.1);
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus{
+  outline: none;
+  box-shadow: 3px 3px 10px #333;
+  background: rgba(3,3,3,.18);
+}
+::-webkit-input-placeholder {
+   color: #fff;  }
+   
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover.color-5 {
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+
+ul { text-align: center; 
+	 font-size: 0;
+}
+ul li{width: 150px; height: 30px; 
+      display: inline-block;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 28px;
+}
+a {
+  text-decoration: none;
+}
+a:link{
+	color: darkgrey;
+}
+a:visited{
+	color: darkgrey;
+}

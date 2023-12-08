@@ -1,0 +1,411 @@
+@charset "utf-8";
+
+* {
+	list-style: none;
+	box-sizing: border-box:
+}
+
+.mother {
+	width: 100%; height =100%;
+	background-color: #f1f1f2;
+}
+
+.recipe {
+	width: 1200px;
+	margin: auto;
+	height: 100%;
+	background-color: #ffffff;
+	margin-top: 0px;
+}
+
+.between {
+	width: 1200px;
+	height: 20px;
+	background-color: #f1f1f2;
+}
+
+.regis_tit {
+	height: 40px;
+	background: #f8f8f8;
+	border-bottom: 1px solid #e6e7e8;
+	padding: 16px 18px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.regis-cont1 {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	height: 480px;
+}
+
+.contImg {
+	width: 25%;
+	height: 260px;
+	border: 1px solid #e1e1e1;
+	float: left;
+	margin-top: 60px;
+	margin-left: 80px;
+	margin-right: 20px;
+}
+
+#thumbImg {
+	width: 250px;
+	height: 250px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 77px;
+	padding-bottom: 5px;
+}
+
+.cont_tit1 {
+	width: 60%;
+	height: 100px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 60px;
+	padding-top: 10px;
+	border-radius: 4px;
+}
+
+.reci_tit {
+	width: 15%;
+	height: 50px;
+	float: left;
+	margin-left: 45px;
+	margin-top: 35px;
+	font-size: 18px;
+	font: border;
+}
+
+.reci_titBox1 {
+	width: 65%;
+	background: #f5f5f5;
+	border: 1px solid #e1e1e1;
+	border-radius: 4px;
+	height: 50px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 20px;
+	vertical-align: middle;
+	resize: none;
+	padding-left: 10px;
+	font-size: 18px;
+}
+
+.cont_tit2 {
+	width: 60%;
+	height: 100px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 60px;
+	padding-top: 10px;
+	border-radius: 4px;
+	padding-bottom: 15px;
+}
+
+.reci_tit1 {
+	width: 15%;
+	height: 50px;
+	float: left;
+	margin-left: 45px;
+	margin-top: 35px;
+	font-size: 18px;
+	font: border;
+}
+
+.reci_titBox2 {
+	width: 65%;
+	background: #f5f5f5;
+	border: 1px solid #e1e1e1;
+	border-radius: 4px;
+	height: 80px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+	resize: none;
+	vertical-align: middle;
+	vertical-align: center;
+	line-height: 25px;
+	padding-left: 10px;
+	overflow: auto;
+	font-size: 18px;
+}
+
+.cont_tit3 {
+	width: 60%;
+	height: 100px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 60px;
+	padding-top: 10px;
+	border-radius: 4px;
+}
+
+.reci_tit2 {
+	width: 15%;
+	height: 50px;
+	float: left;
+	margin-left: 45px;
+	margin-top: 35px;
+	font-size: 18px;
+	font: border;
+}
+
+.reci_cat {
+	width: 70%;
+	height: 60px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+#cok_sq_category4 {
+	width: 25%;
+	height: 30px;
+}
+
+#cok_time {
+	width: 25%;
+	height: 30px;
+	margin-left: 20px;
+}
+
+#cod_degree {
+	width: 25%;
+	height: 30px;
+	margin-left: 20px;
+}
+
+.regis_tit2 {
+	height: 40px;
+	background: #f8f8f8;
+	border-bottom: 1px solid #e6e7e8;
+	padding: 16px 18px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.post-meta {
+	font-size: 1.125rem;
+	font-style: italic;
+	padding-left: 5px;
+}
+
+.regis-cont2 {
+	padding-top: 30px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 30px;
+	min-height: 480px;
+	overflow: hidden;
+}
+
+.material_cont {
+	width: 20%;
+	height: 300px;
+	margin-top: 80px;
+	padding-left: 50px;
+	float: left;
+}
+
+.form-control {
+	font-weight: bold;
+	font-size: 18px;
+	width: 250px;
+	height: 60px;
+	background: #f0ecbc42;
+	border: 1px solid #e1e1e1;
+	border-radius: 4px;
+	padding-left: 8px;
+}
+
+.materialBox {
+	width: 70%;
+	min-height: 150px;
+	margin-top: 50px;
+	float: right;
+}
+
+#divMaterialArea_1 {
+	min-height: 150px;
+}
+
+.ui-sortable {
+	list-style: none;
+	min-height: 300px;
+}
+
+.form_control1 {
+	width: 280px;
+	height: 50px;
+	margin-top: 12px;
+	border-radius: 4px;
+	background: #f5f5f5;
+}
+
+.form_control2 {
+	width: 250px;
+	height: 50px;
+	margin-top: 12px;
+	margin-left: 10px;
+	border-radius: 4px;
+	background: #f5f5f5;
+}
+
+.btn-default {
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+.btn-add {
+	width: 70%;
+	height: 50px;
+	padding-left: 300px;
+}
+
+.regis_tit3 {
+	height: 40px;
+	background: #f8f8f8;
+	border-bottom: 1px solid #e6e7e8;
+	padding: 16px 18px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.regis-cont3 {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	min-height: 480px;
+	overflow: hidden;
+}
+
+.guide {
+	height: 80px;
+	font-size: 18px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.stepCont {
+	height: 200px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.stepNum {
+	float: left;
+	width: 15%;
+	height: 170px;
+}
+
+.step_num_count {
+	font-size: 40px;
+	font-weight: normal;
+	vertical-align: top;
+	color: #385723;
+	folat: right;
+	font-weight: bold;
+}
+
+.step_ex {
+	float: left;
+	width: 45%;
+	height: 170px;
+	margin-left: 5px;
+}
+
+.ex-write {
+	width: 100%;
+	height: 160px;
+	background: #f5f5f5;
+	border: 1px solid #e1e1e1;
+	font-size: 16px;
+	border-radius: 4px;
+	resize: none;
+}
+
+.step_pic {
+	float: left;
+	width: 17%;
+	height: 160px;
+	margin-left: 8px;
+	margin-top: 2px;
+	margin-bottom: 3px;
+	border: 1px solid #e1e1e1;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.btn_del {
+	float: left;
+	width: 10%;
+	height: 160px;
+	margin-top: 2px;
+}
+
+.sbtn-add {
+	width: 70%;
+	height: 30px;
+	padding-left: 360px;
+	margin-left: 100px;
+}
+
+.sbtn-addd {
+	vertical-align: top;
+}
+
+.regis-cont4 {
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 2px;
+	min-height: 53px;
+}
+
+.store {
+	float: left;
+	width: 49%;
+	text-align: right;
+	height: 45px;
+}
+
+.btn-store {
+	height: 45px;
+	width: 35%;
+	margin-right: 5px;
+	color: #fff;
+	font-size:16px;
+	font-weight:bold;
+    background-color: #ff9b56;
+    border: 1px solid #ff9b56;
+    border-radius:4px;
+}
+
+.cancel {
+	float: left;
+	width: 49%;
+	height: 45px;
+}
+
+.btn-can {
+	height: 45px;
+	width: 35%;
+	margin-left: 5px;
+	color: #fff;
+	font-size:16px;
+	font-weight:bold;
+    background-color: #5bd185;
+    border: 1px solid #5bd185;
+    border-radius:4px;
+}
